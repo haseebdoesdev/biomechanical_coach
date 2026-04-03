@@ -1,0 +1,36 @@
+Biomechanical Coach
+Project Overview
+Biomechanical Coach is a modern, cross-platform mobile application built with Flutter. It is designed to act as a digital training companion, providing users with structured workout plans, active session tracking, and intelligent biomechanical feedback to improve athletic performance and form.
+
+Core Features
+User Management & Onboarding: Secure authentication flow with a seamless onboarding experience and personalized profile setup.
+
+Exercise & Workout Library: A comprehensive, categorized database of exercises and structured workout plans.
+
+Active Session Tracking: Real-time logging and management of user training sessions.
+
+Biomechanical Feedback: Intelligent coaching cues provided to the user to correct form and optimize movements.
+
+Progress Analytics: Visual data representations of user progress, long-term trends, and detailed session summaries.
+
+Technical Architecture
+Framework: Flutter / Dart (SDK ^3.11.0)
+
+State Management: Riverpod (flutter_riverpod)
+
+Navigation: Declarative routing via GoRouter (go_router)
+
+Data Visualization: FlChart (fl_chart)
+
+UI/UX Enhancements: Lottie for fluid animations, Cached Network Image for efficient asset loading, and Smooth Page Indicator for intuitive navigation.
+
+Core Data Models
+The application relies on a strictly typed, modular architecture driven by the following primary data structures:
+
+UserProfile: Manages user demographics, historical data, and app preferences.
+
+Exercise & WorkoutPlan: Defines the parameters of individual movements, sets, reps, and comprehensive training regimens.
+
+SessionSummary: Captures the finalized results, metrics, and duration of a completed workout.
+
+CoachingCue: Structures the biomechanical feedback, actionable advice, and form corrections delivered to the user.
